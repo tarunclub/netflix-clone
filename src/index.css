@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@layer components {
+  .banner-button {
+    @apply cursor-pointer text-[#fff] bg-[rgba(51,51,51,0.5)] outline-none border-none font-semibold rounded-md px-4 lg:px-8 py-1 lg:py-2 text-sm lg:text-base mr-4 mt-4 hover:text-black hover:bg-[#e6e6e6] transition-all duration-300;
+  }
+}
